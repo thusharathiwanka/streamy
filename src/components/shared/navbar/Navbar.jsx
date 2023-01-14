@@ -1,10 +1,10 @@
-import { Stack } from '@mui/material';
-import { Link } from 'react-router-dom';
+import { Stack } from "@mui/material";
+import { Link } from "react-router-dom";
 
-import { Search } from '../..';
-import { Logo } from '../../../assets';
+import { Search } from "../..";
+import { Logo } from "../../../assets";
 
-import theme from '../../../theme';
+import theme from "../../../theme";
 
 const Navbar = () => {
   const { colors } = theme;
@@ -15,15 +15,15 @@ const Navbar = () => {
       p={2}
       justifyContent="space-between"
       alignItems="center"
-      sx={{ background: colors.darkBlue, position: 'sticky' }}
+      sx={{ background: colors.darkBlue, position: "sticky" }}
     >
       <Link
         to="/"
         style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          marginLeft: '25px',
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          marginLeft: "25px",
         }}
       >
         <img src={Logo} height={50} alt="logo" />

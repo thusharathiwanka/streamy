@@ -1,5 +1,3 @@
-const Channel = () => {
-  return <div>Channel</div>;
-};
+const Channel = () => <div>Channel</div>;
 
 export default Channel;

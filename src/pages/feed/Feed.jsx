@@ -1,5 +1,3 @@
-const Feed = () => {
-  return <div>Feed</div>;
-};
+const Feed = () => <div>Feed</div>;
 
 export default Feed;

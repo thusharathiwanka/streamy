@@ -1,7 +1,5 @@
 import NavigationRoutes from "./routes/NavigationRoutes";
 
-const App = () => {
-  return <NavigationRoutes />;
-};
+const App = () => <NavigationRoutes />;
 
 export default App;

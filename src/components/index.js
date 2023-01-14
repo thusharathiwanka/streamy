@@ -1,2 +1,2 @@
-export { default as Navbar } from './shared/Navbar';
-export { default as Search } from './search/Search';
+export { default as Navbar } from './shared/navbar/Navbar';
+export { default as Search } from './shared/search/Search';

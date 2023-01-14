@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Search } from '../..';
 import { Logo } from '../../../assets';
+
 import theme from '../../../theme';
 
 const Navbar = () => {
@@ -22,9 +23,10 @@ const Navbar = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
+          marginLeft: '25px',
         }}
       >
-        <img src={Logo} height={45} alt="logo" />
+        <img src={Logo} height={50} alt="logo" />
       </Link>
       <Search />
     </Stack>
